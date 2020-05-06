@@ -1,0 +1,14 @@
+.block {
+    width: 6.25%;
+    height: 50px;
+    margin-left: 1rem;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #434343, #393939);
+    box-shadow: 2px 2px 1px #191919, -2px -2px 5px #656565;
+    &-active {
+        // opacity: 0.5 !important;
+        // filter: hue-rotate();
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228dff, 0 0 35px #228dff, 0 0 40px #228dff,
+            0 0 50px #228dff, 0 0 75px #228dff;
+    }
+}
